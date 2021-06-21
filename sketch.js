@@ -48,6 +48,7 @@ function setup() {
 
 function draw() {
   background(1,1,1); 
+  Engine.update(engine);
   ground.display(); 
   
   for (i=0; i < divisions.length; i++){
